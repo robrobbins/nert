@@ -3,7 +3,7 @@ import Web3 from 'web3'
 import HDWalletProvider from 'truffle-hdwallet-provider'
 import { Contract, HttpProvider } from '../../node_modules/web3/types.d'
 
-const mnemonic = 'grit country ring decorate pause nose helmet bamboo beauty order mushroom choice',
+const mnemonic = '',
   infura = 'https://rinkeby.infura.io/Ko5AAluYKtxBvIT9kmlo',
   provider:HttpProvider  = new HDWalletProvider(mnemonic, infura),
   web3 = new Web3(provider),
