@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width-device-width, initial-scale=1.0'>
+    <title>Member::Get</title>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <script defer src='web3.js'></script>
+    <script defer src='member-abi.js'></script>
+    <script defer src='get.js'></script>
+  </head>
+  <body>
+    <div class='container'>
+      <h1>Computable Member Contract</h1>
+
+      <label for='address'>Contract Address</label>
+      <input id='address' type='text'>
+
+      <div class='label'>Member First Name</div>
+      <div id='firstName' class='input'>&nbsp;</div>
+
+      <div class='label'>Member Last Name</div>
+      <div id='lastName' class='input'>&nbsp;</div>
+
+      <div class='label'>Member Title</div>
+      <div id='title' class='input'>&nbsp;</div>
+
+      <div class='label'>Member Foo</div>
+      <div id='foo' class='input'>&nbsp;</div>
+
+      <button id='submit'>Get Member Info</button>
+    </div>
+  </body>
+</html>

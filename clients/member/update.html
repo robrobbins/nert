@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width-device-width, initial-scale=1.0'>
+    <title>Contract::Member</title>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <script defer src='web3.js'></script>
+    <script defer src='member-abi.js'></script>
+    <script defer src='update.js'></script>
+  </head>
+  <body>
+    <div class='container'>
+      <h1>Computable Member Contract</h1>
+
+      <label for='address'>Contract Address</label>
+      <input id='address' type='text'>
+
+      <div class='label'>Member First Name</div>
+      <div id='firstName' class='input'>&nbsp;</div>
+
+      <div class='label'>Member Last Name</div>
+      <div id='lastName' class='input'>&nbsp;</div>
+
+      <label for='title'>Member Title</label>
+      <input id='title' type='text'>
+
+      <label for='foo'>Member Foo</label>
+      <input id='foo' type='text'>
+      <br />
+
+      <button id='fetch'>Get Member</button>
+      <button id='submit'>Update Member</button>
+    </div>
+  </body>
+</html>
